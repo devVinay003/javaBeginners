@@ -1,0 +1,20 @@
+import java.util.*;
+class Newarray{
+  public static void main(String[] args) {
+  
+  int Arr[]=new int[5];
+
+  Scanner Sc = new Scanner(System.in);
+  System.out.print("enter 5 number:" );
+  for(int i = 0; i<5; i++)
+{
+  Arr[i] = Sc.nextInt();
+}
+System.out.println("the traversal od 1D array is");
+for(int i = 0; i<5; i++)
+{
+  System.out.println("on"+i+"index-valueis:"+Arr[i]);
+}
+  }
+
+}
